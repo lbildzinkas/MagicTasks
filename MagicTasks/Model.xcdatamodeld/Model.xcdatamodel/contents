@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="Project" representedClassName=".Project" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tasks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="project" inverseEntity="Task" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName=".Task" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="durations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TaskDuration" inverseName="task" inverseEntity="TaskDuration" syncable="YES"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="tasks" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="TaskDuration" representedClassName=".TaskDuration" syncable="YES">
+        <attribute name="durationEnd" attributeType="Date" syncable="YES"/>
+        <attribute name="durationInit" attributeType="Date" syncable="YES"/>
+        <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Task" inverseName="durations" inverseEntity="Task" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Task" positionX="-272" positionY="-87" width="128" height="103"/>
+        <element name="TaskDuration" positionX="-81" positionY="-108" width="128" height="88"/>
+        <element name="Project" positionX="-81" positionY="54" width="128" height="88"/>
+    </elements>
+</model>

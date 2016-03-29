@@ -14,11 +14,14 @@
 		F20614251C98DDEF003386A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20614241C98DDEF003386A8 /* Assets.xcassets */; };
 		F20614281C98DDEF003386A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20614261C98DDEF003386A8 /* LaunchScreen.storyboard */; };
 		F21CBD171C9DFF0C0055A7E5 /* DetailtsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CBD161C9DFF0C0055A7E5 /* DetailtsTableViewController.swift */; };
-		F947342EF42EEA9B13E0435A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9473BFF9D5DE9EABAB1062B /* Task.swift */; };
-		F94736A97D0E51B830BC53E2 /* TaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9473A9EA1EECBE2E1D00241 /* TaskType.swift */; };
-		F94737D9F04D93F2AFD4DA20 /* TaskDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9473874C834BE903D02B0ED /* TaskDuration.swift */; };
+		F2503DF51CA75547005266AF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2503DF31CA75547005266AF /* Model.xcdatamodeld */; };
+		F2503DFC1CA85438005266AF /* TaskDuration+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2503DF61CA85438005266AF /* TaskDuration+CoreDataProperties.swift */; };
+		F2503DFD1CA85438005266AF /* TaskDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2503DF71CA85438005266AF /* TaskDuration.swift */; };
+		F2503DFE1CA85438005266AF /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2503DF81CA85438005266AF /* Task+CoreDataProperties.swift */; };
+		F2503DFF1CA85438005266AF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2503DF91CA85438005266AF /* Task.swift */; };
+		F2503E001CA85438005266AF /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2503DFA1CA85438005266AF /* Project+CoreDataProperties.swift */; };
+		F2503E011CA85438005266AF /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2503DFB1CA85438005266AF /* Project.swift */; };
 		F9473B19CAE1FE88D030B57D /* NSDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94738EF3A43324E7EB1358D /* NSDateExtensions.swift */; };
-		F9473FF63529C5BFBE2AB23A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94734ECE76B14811D422C95 /* Project.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +34,14 @@
 		F20614271C98DDEF003386A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20614291C98DDEF003386A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F21CBD161C9DFF0C0055A7E5 /* DetailtsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailtsTableViewController.swift; sourceTree = "<group>"; };
-		F94734ECE76B14811D422C95 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
-		F9473874C834BE903D02B0ED /* TaskDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDuration.swift; sourceTree = "<group>"; };
+		F2503DF41CA75547005266AF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F2503DF61CA85438005266AF /* TaskDuration+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TaskDuration+CoreDataProperties.swift"; path = "Model/TaskDuration+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2503DF71CA85438005266AF /* TaskDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskDuration.swift; path = Model/TaskDuration.swift; sourceTree = "<group>"; };
+		F2503DF81CA85438005266AF /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "Model/Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2503DF91CA85438005266AF /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Model/Task.swift; sourceTree = "<group>"; };
+		F2503DFA1CA85438005266AF /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Project+CoreDataProperties.swift"; path = "Model/Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2503DFB1CA85438005266AF /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = Model/Project.swift; sourceTree = "<group>"; };
 		F94738EF3A43324E7EB1358D /* NSDateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtensions.swift; sourceTree = "<group>"; };
-		F9473A9EA1EECBE2E1D00241 /* TaskType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskType.swift; sourceTree = "<group>"; };
-		F9473BFF9D5DE9EABAB1062B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 				F20614261C98DDEF003386A8 /* LaunchScreen.storyboard */,
 				F20614291C98DDEF003386A8 /* Info.plist */,
 				F947376F76B2330C11EF55AF /* Extensions */,
+				F2503DF31CA75547005266AF /* Model.xcdatamodeld */,
 			);
 			path = MagicTasks;
 			sourceTree = "<group>";
@@ -85,10 +92,12 @@
 		F206142F1C996BAD003386A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F9473BFF9D5DE9EABAB1062B /* Task.swift */,
-				F9473A9EA1EECBE2E1D00241 /* TaskType.swift */,
-				F94734ECE76B14811D422C95 /* Project.swift */,
-				F9473874C834BE903D02B0ED /* TaskDuration.swift */,
+				F2503DF61CA85438005266AF /* TaskDuration+CoreDataProperties.swift */,
+				F2503DF71CA85438005266AF /* TaskDuration.swift */,
+				F2503DF81CA85438005266AF /* Task+CoreDataProperties.swift */,
+				F2503DF91CA85438005266AF /* Task.swift */,
+				F2503DFA1CA85438005266AF /* Project+CoreDataProperties.swift */,
+				F2503DFB1CA85438005266AF /* Project.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -175,13 +184,16 @@
 			files = (
 				F20614201C98DDED003386A8 /* SecondViewController.swift in Sources */,
 				F21CBD171C9DFF0C0055A7E5 /* DetailtsTableViewController.swift in Sources */,
+				F2503DFF1CA85438005266AF /* Task.swift in Sources */,
 				F206141C1C98DDED003386A8 /* AppDelegate.swift in Sources */,
+				F2503DFC1CA85438005266AF /* TaskDuration+CoreDataProperties.swift in Sources */,
+				F2503DFE1CA85438005266AF /* Task+CoreDataProperties.swift in Sources */,
 				F206141E1C98DDED003386A8 /* Tasks.swift in Sources */,
-				F947342EF42EEA9B13E0435A /* Task.swift in Sources */,
-				F94736A97D0E51B830BC53E2 /* TaskType.swift in Sources */,
-				F9473FF63529C5BFBE2AB23A /* Project.swift in Sources */,
-				F94737D9F04D93F2AFD4DA20 /* TaskDuration.swift in Sources */,
+				F2503DF51CA75547005266AF /* Model.xcdatamodeld in Sources */,
+				F2503E001CA85438005266AF /* Project+CoreDataProperties.swift in Sources */,
+				F2503DFD1CA85438005266AF /* TaskDuration.swift in Sources */,
 				F9473B19CAE1FE88D030B57D /* NSDateExtensions.swift in Sources */,
+				F2503E011CA85438005266AF /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +346,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2503DF31CA75547005266AF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2503DF41CA75547005266AF /* Model.xcdatamodel */,
+			);
+			currentVersion = F2503DF41CA75547005266AF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F20614101C98DDEC003386A8 /* Project object */;
 }
